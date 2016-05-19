@@ -1,7 +1,7 @@
 
 [Extending the Host Editor](http://powershell.github.io/PowerShellEditorServices/guide/extensions.html)
 
-## Cmd to launch PSEdior Page
+## Cmd to launch PSEditor Page
 
 ```
 Register-EditorCommand `
@@ -12,8 +12,8 @@ Register-EditorCommand `
     }
 
 ```
-
-## Scriptblock
+## Cheat Sheet
+### Scriptblock
 ```
 Register-EditorCommand `
     -Name "MyModule.MyEditorCommandWithContext" `

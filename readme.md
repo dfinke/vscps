@@ -15,6 +15,12 @@ Register-EditorCommand `
 
 ```
 ## Cheat Sheet
+### Logging 
+
+Add to File|Preferences|User Settings
+ 
+`"powershell.developer.editorServicesLogLevel": "Verbose"`
+
 ### Scriptblock
 ```
 Register-EditorCommand `

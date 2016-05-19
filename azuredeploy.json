@@ -3,35 +3,36 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "azureLocation": {
-      "type": "string"
+      "type": "string",
+      "defaultValue": "Standard_LRS"
     },
     "storageAccountName": {
-      "type": "string"
+      "type": "string",
+      "defaultValue": "nyctrytest"      
     },
     "storageAccountType": {
       "type": "string",
-      "defaultValue": "Standard_LRS",
-      "allowedValues": [
-        "Standard_LRS",
-        "Standard_GRS",
-        "Standard_ZRS",
-        "Premium_LRS"
-      ]
+      "defaultValue": "Standard_LRS"
     },
     "serviceBusNamespace": {
-      "type": "string"
+      "type": "string",
+      "defaultValue": "nycsbnstest"
     },
     "serviceBusMessageQueue": {
-      "type": "string"
+      "type": "string",
+      "defaultValue": "messagedrop"
     },
     "serviceBusAlarmQueue": {
-      "type": "string"
+      "type": "string",
+      "defaultValue": "alarms"
     },
     "databaseAccount": {
-      "type": "string"
+      "type": "string",
+      "defaultValue": "nycdocdbtest"
     },
     "iotHubName": {
-      "type": "string"
+      "type": "string",
+      "defaultValue": "nyciothubtest"
     }
   },
   "variables": {

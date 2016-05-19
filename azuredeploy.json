@@ -4,7 +4,7 @@
   "parameters": {
     "azureLocation": {
       "type": "string",
-      "defaultValue": "Standard_LRS"
+      "defaultValue": "East US"
     },
     "storageAccountName": {
       "type": "string",
